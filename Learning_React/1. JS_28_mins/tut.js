@@ -32,26 +32,38 @@ const component = (a, b) => {
 
 // --------------------------------------------------------------------------------------------------------------
 // const hardworking = true;
-const person = {
-    name: "abdul raheem",
-    age: 1,
-    hardworking: true,
-};
+// const person = {
+//     name: "abdul raheem",
+//     age: 1,
+//     hardworking: true,
+// };
 
 // const {name, age, hardworking} = person ;
 
-const person2 = {
-    ...person, age: 10
-};
-console.log(person2);
+// const person2 = {
+//     ...person, age: 10
+// };
+// console.log(person2);
 
 const array = [1,2,3,4];
 const nums = [...array,5];
-console.log(nums);
+// console.log(nums);
 
 
+// --------------------------------------------------------------------------------------------------------------
+// map, filter
+names = ["AR","AS","ASDS"];
+new_nums = nums.map((i) => {
+    return i*10;
+});
 
+new_names = names.filter((name) => {
+    return name != "AR";
+});
 
+nums2 = new_nums.filter((i) => {
+    return i > 10;
+});
 
 
 
