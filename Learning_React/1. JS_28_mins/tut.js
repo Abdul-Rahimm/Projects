@@ -18,24 +18,36 @@ const component = (a, b) => {
 </button> */}
 
 // --------------------------------------------------------------------------------------------------------------
-let age = 11;
-let div1 = 10, div2 = 100;
+// let age1 = 11;
+// let div1 = 10, div2 = 100;
 
-let n = age == 10 && 10;
-let x = age == 11 || "abdul raheem";
-let name1 = age == 10 ? "10" : "not 10";
+// let n = age1 == 10 && 10;
+// let x = age1 == 11 || "abdul raheem";
+// let name1 = age1 == 10 ? "10" : "not 10";
 
-const comp1 = () => {
-    return age = 11 ? div1 : div2;
-}
-console.log(comp1());
+// const comp1 = () => {
+//     return age1 = 11 ? div1 : div2;
+// }
+// console.log(comp1());
 
 // --------------------------------------------------------------------------------------------------------------
+// const hardworking = true;
+const person = {
+    name: "abdul raheem",
+    age: 1,
+    hardworking: true,
+};
 
+// const {name, age, hardworking} = person ;
 
+const person2 = {
+    ...person, age: 10
+};
+console.log(person2);
 
-
-
+const array = [1,2,3,4];
+const nums = [...array,5];
+console.log(nums);
 
 
 
