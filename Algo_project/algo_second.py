@@ -21,11 +21,11 @@ def check_intersection(a, b, c, d):
     o3 = orientation(c, d, a)
     o4 = orientation(c, d, b)
 
-# if collinear
+# if collinearrrrr
     if o1 != o2 and o3 != o4:
         return True, None  # Lines intersect
 
-    # Special cases for collinear lines
+    # Special cases for collinear liness
     if o1 == 0 and on_segment(a, c, b):
         return True, (c[0], c[1])  # Intersection point is c
     if o2 == 0 and on_segment(a, d, b):
