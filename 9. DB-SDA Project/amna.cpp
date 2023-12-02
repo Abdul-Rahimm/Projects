@@ -7,4 +7,10 @@ typedef vector<vi> vvi;
 
 int main()
 {
+    int num = 10;
+    cout << 10 << endl;
+    // stable code 
+
+    int num2 = 69;
+    cout << num2 << endl;
 }
