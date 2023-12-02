@@ -21,7 +21,9 @@ def check_intersection(a, b, c, d):
     o3 = orientation(c, d, a)
     o4 = orientation(c, d, b)
 
+
 # if collinearrrrr
+
     if o1 != o2 and o3 != o4:
         return True, None  # Lines intersect
 
