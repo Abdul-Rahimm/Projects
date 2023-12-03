@@ -1,12 +1,14 @@
 // import { MouseEvent } from "react";
 
+// something should happen after a click
+
 import { useState } from "react";
 
 interface Props {
   items: string[];
   heading: string;
 }
-// props
+
 function ListGroup({ items, heading }: Props) {
   // event handler
   // const handleClick = (event: MouseEvent) => console.log(event);
