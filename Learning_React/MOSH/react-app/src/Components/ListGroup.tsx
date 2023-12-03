@@ -2,9 +2,12 @@
 
 import { useState } from "react";
 
-function ListGroup() {
-  const items = ["new york", "pakistan", "karachi"];
-
+interface Props {
+  items: string[];
+  heading: string;
+}
+// props
+function ListGroup({ items, heading }: Props) {
   // event handler
   // const handleClick = (event: MouseEvent) => console.log(event);
 
@@ -13,7 +16,7 @@ function ListGroup() {
 
   return (
     <>
-      <h1>Unordered List</h1>
+      <h1>{heading}</h1>
       <ul className="list-group">
         {items.map((item, index) => (
           <li
